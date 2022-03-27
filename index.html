@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga-Shop</title>
+    <!-- reset Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.3-web/css/all.min.css">
+    <!-- fonts chữ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="main">      
+        <header class="header js-header">
+            <div class="grid wide">         
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--hoverQR separate-item">Cửa hàng truyyện
+                           <!-- QR code -->
+                            <div class="header__qr">
+                                <img src="./assets/img/QRcode.png" alt="QRcode" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <img src="./assets/img/appstore.png" alt="App Store" class="header__qr-dowload-app">
+                                    <img src="./assets/img/googleplay.png" alt="Google Play" class="header__qr-dowload-app">
+                                    <img src="./assets/img/appgallery.png" alt="App Allery" class="header__qr-dowload-app">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="navbar-title">Kết nối</span> 
+                            <a href="https://www.facebook.com/quanhide309/" class="navbar-icon-link">
+                                <i class="navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="navbar-icon-link">
+                                <i class="navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__notify--hover-notify ">
+                            <a href="https://shopee.vn/user/notifications/order" class="header__navbar-item-link ">
+                                <i class="navbar-icon far fa-bell"></i> 
+                                Thông báo
+                            </a>
+                            <!-- notification -->
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                    <ul class="header__notify-list">
+                                        <li class="notify-item">
+                                            <a href="" class="notify-link">
+                                                <img src="./assets/img/home-product/home1.jpg" alt="" class="notify-img">
+                                                <div class="notify-info">
+                                                    <span class="notify-name">Cháu Trai Của Hiền Nhân</span>
+                                                    <span class="notify-desc">Nhờ vào phép thuật, con người đã có thể thoát khỏi nhiều tai họa, và rất nhiều lần, Giữ lại ký ức từ cuộc sống trước kia
+                                                    , cậu bé tên Shin, được nuôi dưỡng bởi một ông già từ trong thế giới được gọi là "Magi"-.- Lần đầu dịch, nên sẽ rất sida</span>
+                                                </div>
+                                            </a>                                               
+                                        </li>
+                                        <li class="notify-item">
+                                            <a href="" class="notify-link">
+                                                <img src="./assets/img/home-product/home2.jpg" alt="" class="notify-img">
+                                                <div class="notify-info">
+                                                    <span class="notify-name">Tối Cường Phản Sáo Lộ Hệ Thống</span>
+                                                    <span class="notify-desc">"Người trẻ tuổi, năm đó ta bắt đầu Trang Bức thời điểm, các ngươi còn chỉ là một giọt chất lỏng!" "Tiên tử, theo tại hạ
+                                                    đi một chuyến, bảo đảm mang ngươi Trang Bức mang ngươi bay, mang ngươi đồng thời khà khà khà!" Người mặc cuồng đồ áo
+                                                    giáp, kiên khiêng nhật viêm đấu bồng. </span>
+                                                </div>
+                                            </a>
+                                                
+                                        </li>
+                                        <li class="notify-item">
+                                            <a href="" class="notify-link">
+                                                <img src="./assets/img/home-product/home3.jpg" alt="" class="notify-img">
+                                                <div class="notify-info">
+                                                    <span class="notify-name">Thiên Châu Biến</span>
+                                                    <span class="notify-desc">Mỗi người đều có bản mạng châu, sau khi thức tỉnh, hoặc là Ý Châu, hoặc là Thể Châu, tựa như một vòng xuyến xoay quanh
+                                                    hai cổ tay. Thiên Châu lại tựa như song bào thai vậy, khi Ý, Thể song châu cùng xuất hiện trên một người, đây là Thiên
+                                                    Châu. Tu luyện Thể Châu giả gọi là Thể Châu Sư, tu luyện Ý Châu giả gọi là Ý Châu Sư, mà tu luyện Thiên Châu giả tất
+                                                    nhiên gọi là Thiên Châu Sư vậy. Thiên Châu Sư cảnh giới cao nhất là thập nhị song châu, vì thế mà quá trình tu luyện của
+                                                    nó cũng được gọi là Thiên Châu Thập Nhị Biến. Nhân vật chính của chúng ta chính là một vị tu luyện Thiên Châu Biến, hắn
+                                                    là một cung tiến thủ.</span>
+                                                </div>
+                                            </a>
+                                                
+                                        </li>
+                                        <li class="notify-item">
+                                            <a href="" class="notify-link">
+                                                <img src="./assets/img/home-product/home4.jpg" alt="" class="notify-img">
+                                                <div class="notify-info">
+                                                    <span class="notify-name">Vạn Cổ Tối Cường Tông</span>
+                                                    <span class="notify-desc">Truyện tranh Vạn Cổ Tối Cường Tông được cập nhật nhanh và đầy đủ nhất tại TruyenQQ. Bạn đọc đừng quên để lại bình luận
+                                                    và chia sẻ, ủng hộ TruyenQQ ra các chương mới nhất của truyện Vạn Cổ Tối Cường Tông.</span>
+                                                </div>
+                                            </a>
+                                                
+                                        </li>                                   
+                                </header>
+                                <div class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </div>
+                            </div>                        
+                        </li>
+
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="navbar-icon far fa-question-circle"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <li class="header__navbar-item bold-item separate-item js-dk">Đăng ký</li>
+                        <li class="header__navbar-item bold-item js-dn">Đăng nhập</li>
+                        <!-- <li class="header__navbar-item header__navbar-user">
+                            <img src="./assets/img/user.jpg" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Tổng tư lệnh</span>
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                </nav>
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    <!-- search moblie -->
+                    <label for="mobile-search-checkbox" class="header__mobile-search">
+                        <i class='header__mobile-search-icon bx bx-search'></i>
+                    </label>
+                    <input type="checkbox" hidden name="" id="mobile-search-checkbox" class="header__search-checkbox">
+                    <!-- search -->
+                    <div class="header__logo">
+                        <a href="/" class="header__logo-link">
+                            <img src="./assets/img/logo/icon.png" alt="" class="header__logo-img">
+                        </a>           
+                    </div>
+                    
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập sản phẩm cần tìm...">
+                            <div class="header__search-history">
+                                <h3 class="search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="search-history-list">
+                                    <li class="search-history-list-item">
+                                        <a href="">Cháu Trai Của Hiền Nhân</a>
+                                    </li>
+                                    <li class="search-history-list-item">
+                                        <a href="">Tối Cường Phản Sáo Lộ Hệ Thống</a>
+                                    </li>
+                                    <li class="search-history-list-item">
+                                        <a href="">Vạn Cổ Tối Cường Tông</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Manga</span>
+                            <i class="header__search-select-icon fas fa-chevron-down"></i>
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item option-item-active">
+                                    <span>Shounen</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item option-item-active">
+                                    <span>Horror</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Isekai</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <!-- cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <div class="header__cart-img"><i class='header__cart-icon bx bx-cart'></i></div>
+                            
+                            <!-- <img src="./assets/img/logo/riot-fist-container-red-rgb.png" alt="" class="header__cart-img"> -->
+                            <span class="header__cart-notice">3</span>
+                            <!-- No cart : header__cart-no-cart -->
+                            <div class="header__cart-list">
+                                <img src="./assets/img/shopee-cap.png" alt="" class="header__cart-no-cart-img ">
+                                <span class="header__cart-no-cart-text">Chưa có sản phẩm</span>
+
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/home-product/home1.jpg" alt="" class="header__cart-item-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h4 class="header__cart-item-name">Vạn Cổ Tối Cường Tông</h4>
+                                                <div class="header__cart-item-price-wrap">                               
+                                                    <span class="header__cart-item-price">99.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">3</span>                                          
+                                                </div>      
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-decs">Phân loại: Isekai</span>
+                                                <div class="header__cart-item-remove">Xóa</div>
+                                            </div>
+                                        </div>
+                                    </li> 
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/home-product/home2.jpg" alt="" class="header__cart-item-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h4 class="header__cart-item-name">Tối Cường Phản Sáo Lộ Hệ Thống</h4>
+                                                <div class="header__cart-item-price-wrap">                               
+                                                    <span class="header__cart-item-price">49.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>                                          
+                                                </div>      
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-decs">Phân loại: Isekai</span>
+                                                <div class="header__cart-item-remove">Xóa</div>
+                                            </div>
+                                        </div>
+                                    </li>    
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/home-product/home3.jpg" alt="" class="header__cart-item-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h4 class="header__cart-item-name">Cháu Trai Của Hiền Nhân</h4>
+                                                <div class="header__cart-item-price-wrap">                               
+                                                    <span class="header__cart-item-price">79.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">4</span>                                          
+                                                </div>      
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-decs">Phân loại: Isekai</span>
+                                                <div class="header__cart-item-remove">Xóa</div>
+                                            </div>
+                                        </div>
+                                             
+                                </ul>
+                                <button class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- moblie bar -->
+            <ul class="header__sort-bar">
+                <li class="header__sort-item ">
+                    <a href="" class="header__sort-link">Liên quan</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Mới nhất</a>
+                </li>
+                <li class="header__sort-item header__sort-item-active">
+                    <a href="" class="header__sort-link">Bán chạy</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Giá</a>
+                </li>
+            </ul>
+        </header>
+
+        <div class="main__container">
+            <div class="grid wide">
+                <div class="row sm-gutter main__content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">                
+                            <h3 class="category__heading">
+                                
+                                THỂ LOẠI</h3>
+                            <ul class="category-list">
+                                <li class="category-item ">
+                                    <a href="" class="category-item-link">Isekai</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item-link">Shounen</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item-link">Manhua</a>
+                                </li>
+                                <li class="category-item ">
+                                    <a href="" class="category-item-link">Horror</a>
+                                </li>
+                                <li class="category-item ">
+                                    <a href="" class="category-item-link">Romance</a>
+                                </li>
+                                <li class="category-item ">
+                                    <a href="" class="category-item-link">Drama</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-on-mobile-tablet">
+                            <span class="home-filter-label">Xắp xếp theo</span>
+                            <button class="home-filter__btn btn btn--primary">Phổ biến</button>
+                            <button class="home-filter__btn btn">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-chevron-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-num-currunt">1</span>/14                                   
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn-disabled">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Isekai</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Shounen</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Manhua</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Horror</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Romance</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Drama</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <!-- product item -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item js-a" href="#">
+                                        <div class="home-product-item__img" style ="background-image: url(./assets/img/home-product/home1.jpg);"></div>
+                                        <h3 class="home-product-item__name-game">Cháu Trai Của Hiền Nhân</h3>
+                                        <h4 class="home-product-item__name js-product-name">Nhờ vào phép thuật, con người đã có thể thoát khỏi nhiều tai họa, và rất nhiều lần, Giữ lại ký ức từ cuộc sống trước kia
+                                        , cậu bé tên Shin, được nuôi dưỡng bởi một ông già từ trong thế giới được gọi là "Magi"-.- Lần đầu dịch, nên sẽ rất sida</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">50.000đ</span>
+                                            <span class="home-product-item__price-current">40.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <!-- home-product-item__action-like--liked (TH bấm like) -->
+                                            <div class="home-product-item__action-like js-action-like">
+                                                <i class="home-product-item__action-like-icon-empty far fa-heart js-no-like"></i>
+                                                <i class="home-product-item__action-like-icon-fill fas fa-heart js-like"></i>
+                                            </div>
+                                            <div class="home-product-item__action-rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>                                                   
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 99</span> 
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__origin-brand">Japanese</span>
+                                            <span class="home-product-item__origin-location">Japanese</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <span>Yêu Thích+</span>
+                                            
+
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">20%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style ="background-image: url(./assets/img/home-product/home2.jpg);"></div>
+                                        <h3 class="home-product-item__name-game">Tối Cường Phản Sáo Lộ Hệ Thống</h3>
+                                        <h4 class="home-product-item__name js-product-name">Nhờ vào phép thuật, con người đã có thể thoát khỏi nhiều tai họa, và
+                                            rất nhiều lần, Giữ lại ký ức từ cuộc sống trước kia
+                                            , cậu bé tên Shin, được nuôi dưỡng bởi một ông già từ trong thế giới được gọi là "Magi"-.- Lần đầu dịch, nên sẽ rất
+                                            sida</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">50.000đ</span>
+                                            <span class="home-product-item__price-current">40.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <!-- home-product-item__action-like--liked (TH bấm like) -->
+                                            <div class="home-product-item__action-like js-action-like">
+                                                <i class="home-product-item__action-like-icon-empty far fa-heart js-no-like"></i>
+                                                <i class="home-product-item__action-like-icon-fill fas fa-heart js-like"></i>
+                                            </div>
+                                            <div class="home-product-item__action-rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 99</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__origin-brand">Japanese</span>
+                                            <span class="home-product-item__origin-location">Japanese</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <span>Yêu Thích+</span>
+                                            
+
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">25%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style ="background-image: url(./assets/img/home-product/home3.jpg);"></div>
+                                        <h3 class="home-product-item__name-game">Thiên Châu Biến</h3>
+                                        <h4 class="home-product-item__name js-product-name">Nhờ vào phép thuật, con người đã có thể thoát khỏi nhiều tai họa, và
+                                            rất nhiều lần, Giữ lại ký ức từ cuộc sống trước kia
+                                            , cậu bé tên Shin, được nuôi dưỡng bởi một ông già từ trong thế giới được gọi là "Magi"-.- Lần đầu dịch, nên sẽ rất
+                                            sida</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">50.000đ</span>
+                                            <span class="home-product-item__price-current">40.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <!-- home-product-item__action-like--liked (TH bấm like) -->
+                                            <div class="home-product-item__action-like js-action-like">
+                                                <i class="home-product-item__action-like-icon-empty far fa-heart js-no-like"></i>
+                                                <i class="home-product-item__action-like-icon-fill fas fa-heart js-like"></i>
+                                            </div>
+                                            <div class="home-product-item__action-rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 99</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__origin-brand">Japanese</span>
+                                            <span class="home-product-item__origin-location">Japanese</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <span>Yêu Thích+</span>
+                                            
+
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">50%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style ="background-image: url(./assets/img/home-product/home4.jpg);"></div>
+                                        <h3 class="home-product-item__name-game">Vạn Cổ Tối Cường Tông</h3>
+                                        <h4 class="home-product-item__name js-product-name">Nhờ vào phép thuật, con người đã có thể thoát khỏi nhiều tai họa, và
+                                            rất nhiều lần, Giữ lại ký ức từ cuộc sống trước kia
+                                            , cậu bé tên Shin, được nuôi dưỡng bởi một ông già từ trong thế giới được gọi là "Magi"-.- Lần đầu dịch, nên sẽ rất
+                                            sida</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">50.000đ</span>
+                                            <span class="home-product-item__price-current">40.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <!-- home-product-item__action-like--liked (TH bấm like) -->
+                                            <div class="home-product-item__action-like js-action-like">
+                                                <i class="home-product-item__action-like-icon-empty far fa-heart js-no-like"></i>
+                                                <i class="home-product-item__action-like-icon-fill fas fa-heart js-like"></i>
+                                            </div>
+                                            <div class="home-product-item__action-rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 99</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__origin-brand">Japanese</span>
+                                            <span class="home-product-item__origin-location">Japanese</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <span>Yêu Thích+</span>
+                                            
+
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">33%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style ="background-image: url(./assets/img/home-product/home5.jpg);"></div>
+                                        <h3 class="home-product-item__name-game">Ngự Linh Thế Giới</h3>
+                                        <h4 class="home-product-item__name js-product-name">Nhờ vào phép thuật, con người đã có thể thoát khỏi nhiều tai họa, và
+                                            rất nhiều lần, Giữ lại ký ức từ cuộc sống trước kia
+                                            , cậu bé tên Shin, được nuôi dưỡng bởi một ông già từ trong thế giới được gọi là "Magi"-.- Lần đầu dịch, nên sẽ rất
+                                            sida</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">50.000đ</span>
+                                            <span class="home-product-item__price-current">40.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <!-- home-product-item__action-like--liked (TH bấm like) -->
+                                            <div class="home-product-item__action-like js-action-like">
+                                                <i class="home-product-item__action-like-icon-empty far fa-heart js-no-like"></i>
+                                                <i class="home-product-item__action-like-icon-fill fas fa-heart js-like"></i>
+                                            </div>
+                                            <div class="home-product-item__action-rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 99</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__origin-brand">Japanese</span>
+                                            <span class="home-product-item__origin-location">Japanese</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <span>Yêu Thích+</span>
+                                            
+
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">30%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            <div class="col l-2-4 m-4 c-6">
+                                <a class="home-product-item js-a" href="#">
+                                    <div class="home-product-item__img" style="background-image: url(./assets/img/home-product/home1.jpg);"></div>
+                                    <h3 class="home-product-item__name-game">Cháu Trai Của Hiền Nhân</h3>
+                                    <h4 class="home-product-item__name js-product-name">Nhờ vào phép thuật, con người đã có thể thoát khỏi nhiều tai
+                                        họa, và rất nhiều lần, Giữ lại ký ức từ cuộc sống trước kia
+                                        , cậu bé tên Shin, được nuôi dưỡng bởi một ông già từ trong thế giới được gọi là "Magi"-.- Lần đầu dịch, nên
+                                        sẽ rất sida</h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">50.000đ</span>
+                                        <span class="home-product-item__price-current">40.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <!-- home-product-item__action-like--liked (TH bấm like) -->
+                                        <div class="home-product-item__action-like js-action-like">
+                                            <i class="home-product-item__action-like-icon-empty far fa-heart js-no-like"></i>
+                                            <i class="home-product-item__action-like-icon-fill fas fa-heart js-like"></i>
+                                        </div>
+                                        <div class="home-product-item__action-rating">
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 99</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__origin-brand">Japanese</span>
+                                        <span class="home-product-item__origin-location">Japanese</span>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <span>Yêu Thích+</span>
+                            
+                            
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">20%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2-4 m-4 c-6">
+                                <a class="home-product-item" href="#">
+                                    <div class="home-product-item__img" style="background-image: url(./assets/img/home-product/home2.jpg);"></div>
+                                    <h3 class="home-product-item__name-game">Tối Cường Phản Sáo Lộ Hệ Thống</h3>
+                                    <h4 class="home-product-item__name js-product-name">Nhờ vào phép thuật, con người đã có thể thoát khỏi nhiều tai
+                                        họa, và
+                                        rất nhiều lần, Giữ lại ký ức từ cuộc sống trước kia
+                                        , cậu bé tên Shin, được nuôi dưỡng bởi một ông già từ trong thế giới được gọi là "Magi"-.- Lần đầu dịch, nên
+                                        sẽ rất
+                                        sida</h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">50.000đ</span>
+                                        <span class="home-product-item__price-current">40.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <!-- home-product-item__action-like--liked (TH bấm like) -->
+                                        <div class="home-product-item__action-like js-action-like">
+                                            <i class="home-product-item__action-like-icon-empty far fa-heart js-no-like"></i>
+                                            <i class="home-product-item__action-like-icon-fill fas fa-heart js-like"></i>
+                                        </div>
+                                        <div class="home-product-item__action-rating">
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 99</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__origin-brand">Japanese</span>
+                                        <span class="home-product-item__origin-location">Japanese</span>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <span>Yêu Thích+</span>
+                            
+                            
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">25%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2-4 m-4 c-6">
+                                <a class="home-product-item" href="#">
+                                    <div class="home-product-item__img" style="background-image: url(./assets/img/home-product/home3.jpg);"></div>
+                                    <h3 class="home-product-item__name-game">Thiên Châu Biến</h3>
+                                    <h4 class="home-product-item__name js-product-name">Nhờ vào phép thuật, con người đã có thể thoát khỏi nhiều tai
+                                        họa, và
+                                        rất nhiều lần, Giữ lại ký ức từ cuộc sống trước kia
+                                        , cậu bé tên Shin, được nuôi dưỡng bởi một ông già từ trong thế giới được gọi là "Magi"-.- Lần đầu dịch, nên
+                                        sẽ rất
+                                        sida</h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">50.000đ</span>
+                                        <span class="home-product-item__price-current">40.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <!-- home-product-item__action-like--liked (TH bấm like) -->
+                                        <div class="home-product-item__action-like js-action-like">
+                                            <i class="home-product-item__action-like-icon-empty far fa-heart js-no-like"></i>
+                                            <i class="home-product-item__action-like-icon-fill fas fa-heart js-like"></i>
+                                        </div>
+                                        <div class="home-product-item__action-rating">
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 99</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__origin-brand">Japanese</span>
+                                        <span class="home-product-item__origin-location">Japanese</span>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <span>Yêu Thích+</span>
+                            
+                            
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">50%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2-4 m-4 c-6">
+                                <a class="home-product-item" href="#">
+                                    <div class="home-product-item__img" style="background-image: url(./assets/img/home-product/home4.jpg);"></div>
+                                    <h3 class="home-product-item__name-game">Vạn Cổ Tối Cường Tông</h3>
+                                    <h4 class="home-product-item__name js-product-name">Nhờ vào phép thuật, con người đã có thể thoát khỏi nhiều tai
+                                        họa, và
+                                        rất nhiều lần, Giữ lại ký ức từ cuộc sống trước kia
+                                        , cậu bé tên Shin, được nuôi dưỡng bởi một ông già từ trong thế giới được gọi là "Magi"-.- Lần đầu dịch, nên
+                                        sẽ rất
+                                        sida</h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">50.000đ</span>
+                                        <span class="home-product-item__price-current">40.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <!-- home-product-item__action-like--liked (TH bấm like) -->
+                                        <div class="home-product-item__action-like js-action-like">
+                                            <i class="home-product-item__action-like-icon-empty far fa-heart js-no-like"></i>
+                                            <i class="home-product-item__action-like-icon-fill fas fa-heart js-like"></i>
+                                        </div>
+                                        <div class="home-product-item__action-rating">
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 99</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__origin-brand">Japanese</span>
+                                        <span class="home-product-item__origin-location">Japanese</span>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <span>Yêu Thích+</span>
+                            
+                            
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">33%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2-4 m-4 c-6">
+                                <a class="home-product-item" href="#">
+                                    <div class="home-product-item__img" style="background-image: url(./assets/img/home-product/home5.jpg);"></div>
+                                    <h3 class="home-product-item__name-game">Ngự Linh Thế Giới</h3>
+                                    <h4 class="home-product-item__name js-product-name">Nhờ vào phép thuật, con người đã có thể thoát khỏi nhiều tai
+                                        họa, và
+                                        rất nhiều lần, Giữ lại ký ức từ cuộc sống trước kia
+                                        , cậu bé tên Shin, được nuôi dưỡng bởi một ông già từ trong thế giới được gọi là "Magi"-.- Lần đầu dịch, nên
+                                        sẽ rất
+                                        sida</h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">50.000đ</span>
+                                        <span class="home-product-item__price-current">40.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <!-- home-product-item__action-like--liked (TH bấm like) -->
+                                        <div class="home-product-item__action-like js-action-like">
+                                            <i class="home-product-item__action-like-icon-empty far fa-heart js-no-like"></i>
+                                            <i class="home-product-item__action-like-icon-fill fas fa-heart js-like"></i>
+                                        </div>
+                                        <div class="home-product-item__action-rating">
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                            <i class="home-product-item__star--gold fas fa-star"></i>
+                                        </div>
+                                        <span class="home-product-item__sold">Đã bán 99</span>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__origin-brand">Japanese</span>
+                                        <span class="home-product-item__origin-location">Japanese</span>
+                                    </div>
+                                    <div class="home-product-item__favourite">
+                                        <span>Yêu Thích+</span>
+                            
+                            
+                                    </div>
+                                    <div class="home-product-item__sale-off">
+                                        <span class="home-product-item__sale-off-percent">30%</span>
+                                        <span class="home-product-item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </a>
+                            </div>
+                                
+                            </div>
+                        </div>
+
+                        <!-- phân trang -->
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item ">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__link-icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">14</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__link-icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="main__footer">
+            <div class="grid wide">
+                <div class="row footer__content-mobile">
+                    <div class="col l-2-4 m-4 c-6 ">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item-link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item-link">Manga-Shop </a>
+                            </li>
+                            <li class="footer-item">    
+                                <a href="" class="footer-item-link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6 ">
+                        <h3 class="footer__heading">Giới thiệu</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item-link">Giới thiệu về Manga-Shop</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item-link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer-item">    
+                                <a href="" class="footer-item-link">Điều khoản Manga-Shop</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6 ">
+                        <h3 class="footer__heading">Liên hệ</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item-link">                                  
+                                    <i class="fas fa-phone-volume"></i>Phone: <a class="footer-phone" href="tel:+0961964575">+0961964575</a>
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item-link">  
+                                    <i class="fas fa-envelope"></i></i>Email: <a class="footer-mail" href="mailto:truongtienquan309@gmail.com">truongtienquan309@gmail.com</a>                                 
+                                </a>
+                            </li>
+                            <li class="footer-item">    
+                                <a href="" class="footer-item-link">                                  
+                                </a>
+                            </li>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6 ">
+                        <h3 class="footer__heading">Theo dõi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item-link">
+                                    <i class="footer-item-icon fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item-link">
+                                    <i class="footer-item-icon fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">    
+                                <a href="" class="footer-item-link">
+                                    <i class="footer-item-icon fab fa-linkedin-in"></i>
+                                    Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>                  
+                    <div class="col l-2-4 m-8 c-12 ">
+                        <h3 class="footer__heading">Vào của hàng trên ứng dụng</h3>
+                        <div class="footer__download">
+                            <img src="./assets/img/QRcode.png" alt="QR" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-apps-link">
+                                    <img src="./assets/img/googleplay.png" alt="Google Play" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-apps-link">
+                                    <img src="./assets/img/appstore.png" alt="Apple Store" class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>          
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                        <p class="footer__text">© 2021 Copyright Quân</p>
+                </div>
+            </div>    
+        </div>
+
+        <div class="modal js-open-modal">
+            <div class="modal__overlay"></div>
+            <div class="modal__body js-modal-body">
+                <!-- author register form -->
+                <div class="author-form js-register">
+                    <div class="author-form__container">
+                        <div class="author-form__header">
+                            <h3 class="author-form__heading">Đăng ký</h3>
+                            <spna class="author-form__switch-btn js-btn-login-onform">Đăng nhập</spna>
+                        </div>
+
+                        <div class="author-form__content">
+                            <div class="author-form__content-gruop">
+                                <input type="email" class="author-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="author-form__content-gruop">
+                                <input type="password" class="author-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                            <div class="author-form__content-gruop">
+                                <input type="password" class="author-form__input" placeholder="Nhập lại mật khẩu">
+                            </div>
+                        </div>
+
+                        <div class="author-form__aside">
+                            <p class="author-form__policy-text">
+                                Bằng việc đăng kí, bạn đã đồng ý với Manga-Shop về
+                                <a href="" class="author-form__text-link">Điều khoản dịch vụ</a> &
+                                <a href="" class="author-form__text-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+
+                        <div class="author-form__controls">
+                            <button class="btn btn--normal mr8 js-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary ">ĐĂNG KÝ</button>
+                        </div>                                              
+                    </div>
+                    <div class="author-form__footer">
+                        <a href="" class="authform__socials--fb btn btn--size-s">
+                            <i class="authform__socials-icon fab fa-facebook"></i>
+                            <span class="authform__socials-title">Kết nối với Facebook</span> 
+                        </a>
+                        <a href="" class="authform__socials--gg btn btn--size-s">
+                            <img src="./assets/img/notify/google.jpg" alt="" class="authform__socials-img-gg">
+                            <span class="authform__socials-title">Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div>
+
+                  <!-- author login form -->
+                <div class="author-form js-login">
+                    <div class="author-form__container">
+                        <div class="author-form__header">
+                            <h3 class="author-form__heading">Đăng nhập</h3>
+                            <spna class="author-form__switch-btn js-btn-regis-onform">Đăng ký</spna>
+                        </div>
+
+                        <div class="author-form__content">
+                            <div class="author-form__content-gruop">
+                                <input type="text" class="author-form__input" placeholder="Email/Phone Number/Tên đăng nhập">
+                            </div>
+                            <div class="author-form__content-gruop">
+                                <input type="password" class="author-form__input" placeholder="Mật khẩu">
+                            </div>
+                          
+                        </div>
+
+                        <div class="author-form__aside">
+                            <div class="author-form__help">
+                                <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                                <div class="auth-form__help-separate"></div>
+                                <a href="" class="auth-form__help-link auth-form__help-help">Cần trợ giúp?</a>
+                            </div>
+                        </div>
+
+                        <div class="author-form__controls">
+                            <button class="btn btn--normal mr8 js-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary ">ĐĂNG NHẬP</button>
+                        </div>                                              
+                    </div>
+                    <div class="author-form__footer">
+                        <a href="" class="authform__socials--sms btn btn--size-s">
+                            <i class="authform__socials-icon fas fa-comment-dots"></i>
+                            <span class="authform__socials-title">SMS</span>
+                        </a>
+                        <a href="" class="authform__socials--fb btn btn--size-s">
+                            <i class="authform__socials-icon fab fa-facebook"></i>
+                            <span class="authform__socials-title">Facebook</span> 
+                        </a>
+                        <a href="" class="authform__socials--gg btn btn--size-s">
+                            <img src="./assets/img/notify/google.jpg" alt="" class="authform__socials-img-gg">
+                            <span class="authform__socials-title">Google</span>
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div> 
+
+    </div>  
+
+
+    <script src = "assets/product.js"></script>
+    <script>
+        const likes = document.querySelectorAll('.js-like')
+        const actionlikes = document.querySelectorAll('.js-action-like')
+        const nolikes =document.querySelectorAll('.js-no-like')
+        const colorproducts = document.querySelectorAll('.js-product-name')      
+        
+       
+        // const nodeList_likes = Array.from(document.querySelectorAll('.js-like'))
+        // const nodeList_nolikes = Array.from(document.querySelectorAll('.js-no-like'))
+        // const nodeList_actionslike = Array.from(document.querySelectorAll('.js-action-like'))
+        
+        // for(const colorproduct of colorproducts)
+        // setInterval(()=>{
+        //     icon.classList.toggle('green')
+        //     setInterval(()=>{
+        //     icon.classList.toggle('red')
+        //     setInterval(()=>{
+        //     icon.classList.toggle('yellow')
+        // },700)
+        // },700)
+        // },700)
+
+        
+     
+
+        likes.forEach(function(btn,i){likes
+            btn.addEventListener('click',function(e){
+                actionlikes[i].classList.remove('home-product-item__action-like--liked')
+                e.preventDefault();
+            })
+        })
+        nolikes.forEach(function(btn,i){           
+            btn.addEventListener('click',function(e){           
+                actionlikes[i].classList.add('home-product-item__action-like--liked')
+                e.preventDefault();
+            })
+        })
+        actionlikes.forEach(function(btn,i){
+            btn.addEventListener('click',function(e){
+                e.preventDefault();
+            })        
+        })
+            
+    </script>
+    <!-- script -->
+    <script>
+        
+        const register = document.querySelector('.js-dk')
+        const login = document.querySelector('.js-dn')
+        const modal = document.querySelector('.js-open-modal')
+        const backs = document.querySelectorAll('.js-back')
+        const modal_body =document.querySelector('.js-modal-body')
+        const login_form = document.querySelector('.js-login')
+        const register_form = document.querySelector('.js-register')
+        // đăng ký đăng nhập trong form
+        const res_onform = document.querySelector('.js-btn-regis-onform')
+        const login_onform=document.querySelector('.js-btn-login-onform')
+
+      
+
+        res_onform.addEventListener('click',function(){
+            login_form.classList.remove('open-form'); 
+            register_form.classList.add('open-form')
+        })
+
+        login_onform.addEventListener('click',function(){
+            login_form.classList.add('open-form'); 
+            register_form.classList.remove('open-form')
+        })
+
+        register.addEventListener('click',function(){
+            modal.classList.add('open');
+            register_form.classList.add('open-form')
+        })
+
+        login.addEventListener('click',function(){
+            modal.classList.add('open');
+            login_form.classList.add('open-form')
+        })
+
+       for(const back of backs){
+        back.addEventListener('click',function(){
+            modal.classList.remove('open');
+            register_form.classList.remove('open-form');
+            login_form.classList.remove('open-form');           
+        })
+        }
+        modal.addEventListener('click',function(){
+            modal.classList.remove('open');
+            register_form.classList.remove('open-form');
+            login_form.classList.remove('open-form');         
+        })
+        modal_body.addEventListener('click',function(e){
+            e.stopPropagation();
+        })
+
+    </script>
+</body>
+</html>
